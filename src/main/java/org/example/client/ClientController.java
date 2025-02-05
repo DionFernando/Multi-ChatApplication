@@ -1,14 +1,19 @@
 package org.example.client;
 
+import common.*;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
-import common.*;
 
 import java.io.File;
 
 public class ClientController {
+    public ListView userList;
+    public Button uploadButton;
+    public Button sendButton;
     @FXML private TextField usernameField;
     @FXML private TextField messageField;
     @FXML private TextArea chatArea;

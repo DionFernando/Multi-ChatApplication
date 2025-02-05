@@ -1,7 +1,8 @@
 package org.example.server;
 
-import common.Message;
 import common.FileMessage;
+import common.Message;
+
 import java.util.ArrayList;
 import java.util.List;
 

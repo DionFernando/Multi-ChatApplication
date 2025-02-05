@@ -1,8 +1,11 @@
 package org.example.client;
 
-import common.Message;
 import common.FileMessage;
-import java.io.*;
+import common.Message;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 public class ClientConnection implements Runnable {
